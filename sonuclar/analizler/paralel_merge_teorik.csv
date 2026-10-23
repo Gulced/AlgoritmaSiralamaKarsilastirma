@@ -1,0 +1,17 @@
+kayit_turu,boyut,veri_tipi,paralel_oran_f,calisan_sayisi,teorik_hizlanma,sure_ms,referans_gercek_sure_ms,kaynak_csv,aciklama
+gercek_sirali_olcum,10000,rastgele,,1,,20.638966600,20.638966600,sonuclar/deneyler/ozet_10000.csv,CSV'den okunan gercek sirali ortalama; yeni olcum yapilmadi
+teorik_tahmin,10000,rastgele,0.9,2,1.818181818181818181818181818,11.35143163000,20.638966600,sonuclar/deneyler/ozet_10000.csv,Idealize Amdahl senaryosu; gercek paralel olcum DEGIL
+teorik_tahmin,10000,rastgele,0.9,4,3.076923076923076923076923077,6.707664145000,20.638966600,sonuclar/deneyler/ozet_10000.csv,Idealize Amdahl senaryosu; gercek paralel olcum DEGIL
+teorik_tahmin,10000,rastgele,0.9,8,4.705882352941176470588235294,4.3857804025000,20.638966600,sonuclar/deneyler/ozet_10000.csv,Idealize Amdahl senaryosu; gercek paralel olcum DEGIL
+gercek_sirali_olcum,50000,rastgele,,1,,111.532533400,111.532533400,sonuclar/deneyler/ozet_50000.csv,CSV'den okunan gercek sirali ortalama; yeni olcum yapilmadi
+teorik_tahmin,50000,rastgele,0.9,2,1.818181818181818181818181818,61.34289337000,111.532533400,sonuclar/deneyler/ozet_50000.csv,Idealize Amdahl senaryosu; gercek paralel olcum DEGIL
+teorik_tahmin,50000,rastgele,0.9,4,3.076923076923076923076923077,36.248073355000,111.532533400,sonuclar/deneyler/ozet_50000.csv,Idealize Amdahl senaryosu; gercek paralel olcum DEGIL
+teorik_tahmin,50000,rastgele,0.9,8,4.705882352941176470588235294,23.7006633475000,111.532533400,sonuclar/deneyler/ozet_50000.csv,Idealize Amdahl senaryosu; gercek paralel olcum DEGIL
+gercek_sirali_olcum,100000,rastgele,,1,,252.013849800,252.013849800,sonuclar/deneyler/ozet_100000.csv,CSV'den okunan gercek sirali ortalama; yeni olcum yapilmadi
+teorik_tahmin,100000,rastgele,0.9,2,1.818181818181818181818181818,138.60761739000,252.013849800,sonuclar/deneyler/ozet_100000.csv,Idealize Amdahl senaryosu; gercek paralel olcum DEGIL
+teorik_tahmin,100000,rastgele,0.9,4,3.076923076923076923076923077,81.904501185000,252.013849800,sonuclar/deneyler/ozet_100000.csv,Idealize Amdahl senaryosu; gercek paralel olcum DEGIL
+teorik_tahmin,100000,rastgele,0.9,8,4.705882352941176470588235294,53.5529430825000,252.013849800,sonuclar/deneyler/ozet_100000.csv,Idealize Amdahl senaryosu; gercek paralel olcum DEGIL
+gercek_sirali_olcum,500000,rastgele,,1,,1376.906516600,1376.906516600,sonuclar/bonuslar/buyuk_veri_ozet.csv,CSV'den okunan gercek sirali ortalama; yeni olcum yapilmadi
+teorik_tahmin,500000,rastgele,0.9,2,1.818181818181818181818181818,757.29858413000,1376.906516600,sonuclar/bonuslar/buyuk_veri_ozet.csv,Idealize Amdahl senaryosu; gercek paralel olcum DEGIL
+teorik_tahmin,500000,rastgele,0.9,4,3.076923076923076923076923077,447.494617895000,1376.906516600,sonuclar/bonuslar/buyuk_veri_ozet.csv,Idealize Amdahl senaryosu; gercek paralel olcum DEGIL
+teorik_tahmin,500000,rastgele,0.9,8,4.705882352941176470588235294,292.5926347775000,1376.906516600,sonuclar/bonuslar/buyuk_veri_ozet.csv,Idealize Amdahl senaryosu; gercek paralel olcum DEGIL

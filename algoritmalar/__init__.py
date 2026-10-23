@@ -1,0 +1,1 @@
+"""Bağımsız çalıştırılabilen sıralama algoritmaları."""

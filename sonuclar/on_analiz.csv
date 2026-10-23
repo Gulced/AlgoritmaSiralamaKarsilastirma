@@ -1,0 +1,57 @@
+algoritma,veri_tipi,olculen_boyut,olculen_sure_ns,olculen_sure_ms,tahmin_10000_ms,tahmin_50000_ms,tahmin_100000_ms,tahmin_yontemi,deger_turu,basarili_mi
+selection,rastgele,100,193209,0.193209,1932.09,48302.25,193209.0,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+insertion,rastgele,100,242209,0.242209,2422.09,60552.25,242209.0,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+bubble,rastgele,100,342125,0.342125,3421.25,85531.25,342125.0,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+shell,rastgele,100,101292,0.101292,,,,ölçülen büyüme için iki pozitif süre gerekli,ölçülen referans ve matematiksel tahminler,True
+quick,rastgele,100,122875,0.122875,24.575000000000003,144.34648482069707,307.18750000000006,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+merge,rastgele,100,135917,0.135917,27.183400000000006,159.66747651983468,339.7925000000001,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+heap,rastgele,100,150542,0.150542,30.108400000000007,176.84808559818825,376.3550000000001,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+selection,sirali,100,259667,0.259667,2596.6699999999996,64916.74999999999,259666.99999999997,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+insertion,sirali,100,20208,0.020208,2.0208,10.104000000000001,20.208000000000002,sıralı insertion: doğrusal projeksiyon,ölçülen referans ve matematiksel tahminler,True
+bubble,sirali,100,4541,0.004541,45.41,1135.25,4541.0,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+shell,sirali,100,53625,0.053625,,,,ölçülen büyüme için iki pozitif süre gerekli,ölçülen referans ve matematiksel tahminler,True
+quick,sirali,100,70792,0.070792,14.1584,83.16237113673886,176.98000000000002,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+merge,sirali,100,110833,0.110833,22.166600000000003,130.2002356226435,277.08250000000004,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+heap,sirali,100,147125,0.147125,29.425000000000004,172.8339904719842,367.81250000000006,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+selection,ters_sirali,100,238750,0.23875,2387.5,59687.5,238750.0,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+insertion,ters_sirali,100,438917,0.438917,4389.17,109729.25,438917.0,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+bubble,ters_sirali,100,438542,0.438542,4385.42,109635.5,438542.0,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+shell,ters_sirali,100,76333,0.076333,,,,ölçülen büyüme için iki pozitif süre gerekli,ölçülen referans ve matematiksel tahminler,True
+quick,ters_sirali,100,49083,0.049083,9.816600000000001,57.65988618070621,122.70750000000002,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+merge,ters_sirali,100,115584,0.115584,23.116800000000005,135.7814372452936,288.9600000000001,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+heap,ters_sirali,100,115000,0.115,23.000000000000004,135.09538762466056,287.50000000000006,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+selection,kismen_sirali,100,223875,0.223875,2238.75,55968.75,223875.0,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+insertion,kismen_sirali,100,38708,0.038708,,,,ölçülen büyüme için iki pozitif süre gerekli,ölçülen referans ve matematiksel tahminler,True
+bubble,kismen_sirali,100,283750,0.28375,2837.5,70937.5,283750.0,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+shell,kismen_sirali,100,93834,0.093834,,,,ölçülen büyüme için iki pozitif süre gerekli,ölçülen referans ve matematiksel tahminler,True
+quick,kismen_sirali,100,54625,0.054625,10.925,64.17030912171376,136.56250000000003,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+merge,kismen_sirali,100,149500,0.1495,29.900000000000002,175.6240039120587,373.75000000000006,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+heap,kismen_sirali,100,122458,0.122458,24.491600000000002,143.85661719774504,306.14500000000004,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+selection,rastgele,1000,21385667,21.385667,2138.5667000000003,53464.1675,213856.67,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+insertion,rastgele,1000,23390333,23.390333,2339.0333,58475.8325,233903.33,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+bubble,rastgele,1000,36247334,36.247334,3624.7334,90618.335,362473.34,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+shell,rastgele,1000,1680250,1.68025,27.87229063005963,198.5068074902026,462.3505936417259,ölçülen büyüme üssü p=1.2198; karmaşıklık garantisi değil,ölçülen referans ve matematiksel tahminler,True
+quick,rastgele,1000,1141958,1.141958,15.226106666666666,89.43377313685919,190.32633333333334,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+merge,rastgele,1000,1525042,1.525042,20.333893333333332,119.43544355587684,254.17366666666666,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+heap,rastgele,1000,1533708,1.533708,20.44944,120.11413145683645,255.618,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+selection,sirali,1000,20849792,20.849792,2084.9792,52124.48,208497.92,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+insertion,sirali,1000,125958,0.125958,1.25958,6.297899999999999,12.595799999999999,sıralı insertion: doğrusal projeksiyon,ölçülen referans ve matematiksel tahminler,True
+bubble,sirali,1000,57459,0.057459,5.745900000000001,143.6475,574.59,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+shell,sirali,1000,907125,0.907125,15.345002622377612,110.79284258828513,259.5773520526673,ölçülen büyüme üssü p=1.2283; karmaşıklık garantisi değil,ölçülen referans ve matematiksel tahminler,True
+quick,sirali,1000,653375,0.653375,8.711666666666666,51.169825443050776,108.89583333333333,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+merge,sirali,1000,1406292,1.406292,18.75056,110.13539875562849,234.382,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+heap,sirali,1000,1688292,1.688292,22.510559999999998,132.22055777600775,281.38199999999995,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+selection,ters_sirali,1000,20594458,20.594458,2059.4458,51486.145,205944.58,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+insertion,ters_sirali,1000,39974375,39.974375,3997.4375,99935.9375,399743.75,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+bubble,ters_sirali,1000,45958291,45.958291,4595.8291,114895.72750000001,459582.91000000003,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+shell,ters_sirali,1000,1311917,1.311917,22.547603459696322,164.61293711218028,387.5202636871918,ölçülen büyüme üssü p=1.2352; karmaşıklık garantisi değil,ölçülen referans ve matematiksel tahminler,True
+quick,ters_sirali,1000,651750,0.65175,8.69,51.04256167210001,108.625,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+merge,ters_sirali,1000,1483125,1.483125,19.775,116.15266479468096,247.1875,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+heap,ters_sirali,1000,1423041,1.423041,18.973879999999998,111.44711623233887,237.1735,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+selection,kismen_sirali,1000,21576333,21.576333,2157.6333,53940.832500000004,215763.33000000002,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+insertion,kismen_sirali,1000,3468208,3.468208,310.74885634142817,7194.684535099858,27842.866321023866,ölçülen büyüme üssü p=1.9523; karmaşıklık garantisi değil,ölçülen referans ve matematiksel tahminler,True
+bubble,kismen_sirali,1000,24791792,24.791792,2479.1792,61979.48,247917.92,n² projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+shell,kismen_sirali,1000,1435917,1.435917,21.973459842796846,147.91646265513728,336.2540714142987,ölçülen büyüme üssü p=1.1848; karmaşıklık garantisi değil,ölçülen referans ve matematiksel tahminler,True
+quick,kismen_sirali,1000,633208,0.633208,8.442773333333333,49.59042330842669,105.53466666666667,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+merge,kismen_sirali,1000,1452125,1.452125,19.361666666666668,113.72486362577403,242.02083333333334,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
+heap,kismen_sirali,1000,1622958,1.622958,21.639439999999997,127.10384933828627,270.493,n log2(n) projeksiyonu,ölçülen referans ve matematiksel tahminler,True
