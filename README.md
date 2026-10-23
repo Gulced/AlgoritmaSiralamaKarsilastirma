@@ -13,10 +13,40 @@ ve ek bellek gereksinimlerini inceleyen akademik çalışma. Algoritmalar hazır
 - 500000 eleman bonusu: **80 başarılı ölçüm, 16 özet**.
 - Paralel Merge Sort: yalnızca teorik analiz; gerçek paralel deney yapılmadı.
 - Bubble Sort adım görselleştirmesi: bağımsız Tkinter uygulaması.
-- Otomatik testler: **124 test metodu**.
+- Otomatik testler: **134 test metodu**.
 
-Streamlit, performans grafikleri ve nihai PDF raporu henüz hazırlanmadı.
-`rapor_icerigi/` içindeki teorik inceleme, nihai PDF raporu değildir.
+- Rapor grafikleri: **57 PNG**, `sonuclar/grafikler/` (liste: `grafik_listesi.md`).
+
+Streamlit kullanılmadı. Word raporu `rapor/BMT317_Siralama_Algoritmalari_Raporu.docx` içindedir. Teslim PDF’si: [`output/pdf/BMT317_Siralama_Algoritmalari_Raporu.pdf`](output/pdf/BMT317_Siralama_Algoritmalari_Raporu.pdf) (**45 sayfa**).
+
+## Grafikleri üretme
+
+Grafikler yalnızca `sonuclar/` altındaki CSV'lerden çizilir; veri uydurulmaz.
+Yalnızca bu adım `matplotlib` gerektirir:
+
+```bash
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m gorsellestirme.grafikler
+```
+Word raporunu mevcut CSV ve PNG dosyalarından yeniden üretmek için:
+
+```bash
+.venv/bin/python -m rapor.rapor_olustur
+```
+
+Bu komut mevcut Word belgesini günceller; yeni performans deneyi başlatmaz.
+Çıktı: `rapor/BMT317_Siralama_Algoritmalari_Raporu.docx`.
+`rapor_icerigi/` teorik incelemeyi içerir. Word ve PDF raporlarının kapak bilgileri doldurulmuştur.
+
+macOS üzerinde Word içindekiler/sayfa alanlarını güncellemek ve PDF oluşturmak için:
+
+```bash
+.venv/bin/python -m rapor.rapor_olustur --pdf
+```
+
+Bu seçenek Microsoft Word otomasyon izni ve LibreOffice gerektirir. Açık eski Word kopyasını kapatıp komutu çalıştırın. PDF dönüşümünden sonra sayfalama ve içindekiler kontrol edilmelidir.
+
+Son yayımlama kontrolünde rapora yönelik **10 test başarılıdır**. Toplam 134 test metodu keşfedilmiştir; bu yayımlama sırasında algoritmaların testleri veya performans deneyleri yeniden çalıştırılmamıştır.
 
 ## Yedi algoritma
 
@@ -43,8 +73,7 @@ O(log n) ek alan kullanır; O(1) olarak değerlendirilmez.
 ## Python ortamının kurulumu
 
 Geliştirme ortamı: **Python 3.13.13, macOS Apple Silicon, PyCharm**.
-Yalnızca standart kütüphane kullanılır; üçüncü taraf bağımlılık yoktur.
-`requirements.txt` bunu belirtir. `.venv` depoya dahil edilmez.
+Algoritmalar ve deneyler standart kütüphaneyi kullanır. Grafik üretimi Matplotlib; Word raporu python-docx ve görsel boyutlarını okumak için Pillow kullanır. `.venv` depoya dahil edilmez.
 
 Proje kökünde, kurulu Python sürümünü kontrol edip ortamı oluşturun:
 
@@ -52,6 +81,7 @@ Proje kökünde, kurulu Python sürümünü kontrol edip ortamı oluşturun:
 python3.13 --version
 python3.13 -m venv .venv
 source .venv/bin/activate
+python -m pip install -r requirements.txt
 python main.py
 ```
 
@@ -65,7 +95,7 @@ yerel yorumlayıcı olarak proje içindeki `.venv/bin/python` dosyasını seçin
 ```
 
 Testler algoritmalar, sayaçlar, eleman bütünlüğü, veri üretimi, kayıt,
-kesintiden devam ve teorik hesapları kapsar. Test komutu tam deney matrisini
+kesintiden devam, teorik hesaplar, CSV/özet uyumu, grafik türleri ve Word bölüm yapısını kapsar. Test komutu tam deney matrisini
 başlatmaz; küçük girdiler ve gerektiğinde sahte ölçümler kullanır.
 
 ## Deney yöntemi
@@ -147,7 +177,9 @@ algoritmalar/       # Yedi algoritma
 cekirdek/           # Sayaçlar, doğrulama, veri üretimi
 deneyler/           # Ölçüm, kayıt, aşamalı deneyler ve bonuslar
 analizler/          # Paralel Merge teorik hesapları
-gorsellestirme/     # Tkinter Bubble adımları
+gorsellestirme/     # Tkinter Bubble adımları ve CSV kaynaklı grafikler
+rapor/              # Word raporu, ekran görüntüleri ve kalıcı üretici kodu
+output/pdf/         # Teslim PDF raporu
 testler/           # unittest testleri
 sonuclar/          # Ham/özet CSV'ler ve kontrol noktaları
 rapor_icerigi/      # Teorik inceleme; nihai PDF değil

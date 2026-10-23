@@ -1,1 +1,5 @@
-# Şu anda yalnızca Python standart kütüphanesi kullanılıyor.
+# Algoritmalar, deneyler ve çekirdek testler standart kütüphaneyle çalışır.
+# Grafikler, Word raporu ve bunların kalite kontrolleri:
+matplotlib>=3.9
+python-docx>=1.1
+Pillow>=10.4
